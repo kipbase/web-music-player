@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/music-view.min.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+	</div>
+	
+	<div id="music-player">
+		<div class="music-list-dialog">
+			<table></table>
+		</div>
+		<audio autoplay id="music"></audio>
+		<div><img class="album-cover" ></div>
+		<div class="player-controller">
+			<p class="music-detail">
+				<span class="glyphicon glyphicon-music"></span>&nbsp;
+				<span class="author"></span>:
+				<span class="name"></span>
+			</p>
+			<div class="music-list">
+				<span class="glyphicon glyphicon-th-list"></span>
+			</div>
+			<div class="progress">
+				<div class="progress-bar"></div>
+			</div>
+			<div class="play-controller">
+				<span class="glyphicon glyphicon-fast-backward"></span>&nbsp;
+				<span class="glyphicon glyphicon-pause" id="music-play"></span>&nbsp;
+				<span class="glyphicon glyphicon-fast-forward"></span>&nbsp;
+				<span class="glyphicon glyphicon-stop"></span>
+			</div>
+
+			<div class="volume-progress">
+					<div class="volume-progress-bar"></div>
+			</div>
+
+			<div class="volume-controller">
+				<span class="glyphicon volume-icon"></span>
+			</div>
+
+			<div class="mode-controller">
+				<span class="glyphicon music-mode"></span>
+			</div>
+		</div>
+		
+	</div>
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script src="js/music-controller.min.js"></script>
+</body>
+</html>
